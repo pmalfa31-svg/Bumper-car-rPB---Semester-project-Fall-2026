@@ -92,7 +92,7 @@ class PBControllerNode(Node):
         )
 
         self.xbar = torch.tensor(
-            [[2.5, 3.0, -2.5, 3.0]],
+            [[2.0, 3.0, -2.0, 3.0]],
             dtype=torch.float32,
             device=device,
         )
